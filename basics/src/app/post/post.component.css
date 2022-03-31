@@ -1,0 +1,9 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+/*:host will target everything in the <app-post> tag*/
+:host {
+    font-size: 24px;
+}
