@@ -8,8 +8,23 @@ import { getLocaleDayNames } from '@angular/common';
 })
 export class AppComponent {
   title = 'basics';
-  name='Quincy'
+  name = 'quincy rodriguez'
   imgURL = 'https://picsum.photos/id/237/200/300'
+  images = [
+    'https://picsum.photos/id/237/200/300',
+    'https://picsum.photos/id/237/200/300',
+    'https://picsum.photos/id/237/200/300'
+  ]
+  currentDate = new Date()
+  cost = 2000
+  temperature = 25.3
+  pizza = {
+    toppings: ['pepperoni', 'bacon'],
+    size: 'large'
+  }
+
+  blueClass = false
+  fontSize = 16
 
   getName() {
     return this.name;
