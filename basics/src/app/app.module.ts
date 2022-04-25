@@ -4,12 +4,12 @@ import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component'
 
 @NgModule({
+  imports: [
+    BrowserModule
+  ],
   declarations: [
     AppComponent,
     PostComponent
-  ],
-  imports: [
-    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
